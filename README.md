@@ -70,14 +70,6 @@ Follow these steps to get the application up and running on your local machine.
 
 If you're creating the project from scratch, ensure your folder structure matches the one described in "Project Structure" above.
 
-If you were to clone, you would do:
-
-```bash
-git clone https://github.com/your-username/AuthFlow.git   # Replace with your repo URL
-cd AuthFlow
-```
-
-For your case, you already have the files, just ensure they are in the `UserAuthApp` directory as described.
 
 ### 2. **Set up a Virtual Environment (Recommended)**
 
