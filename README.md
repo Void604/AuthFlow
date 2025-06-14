@@ -26,16 +26,16 @@ AuthFlow is a simple web application built with Flask that allows users to sign 
 
 ## 🚀 Technologies Used
 
-- **Backend:** Python 3
-- **Web Framework:** Flask
-- **Database:** SQLite3 (built-in Python database)
-- **Password Hashing:** `bcrypt` Python library
-- **Templating Engine:** Jinja2 (used by Flask for HTML rendering)
-
-**Frontend:**
-- HTML5
-- CSS3
-- Tailwind CSS (for rapid, utility-first styling)
+<div align="center" style="margin-bottom:20px;">
+  <img src="https://img.shields.io/badge/Python-3-blue?logo=python&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Flask-Web%20Framework-black?logo=flask&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SQLite3-Database-003B57?logo=sqlite&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/bcrypt-Password%20Hashing-yellowgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Jinja2-Templating-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/HTML5-Frontend-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CSS3-Frontend-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-Frontend-38BDF8?logo=tailwindcss&logoColor=white&style=for-the-badge" />
+</div>
 
 ---
 
