@@ -1,0 +1,40 @@
+/* static/style.css */
+
+/* Basic reset and box-sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure images scale nicely within their containers if used */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below images */
+}
+
+/* You can add more custom styles here if needed, but Tailwind is doing most of the heavy lifting. */
+/* For instance, if you wanted a very specific shadow not available in Tailwind's defaults */
+/* This is already added inline in base.html's style tag for demonstration.
+.text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+*/
+
+/* Optional: Custom scrollbar styling for better aesthetics if content overflows */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

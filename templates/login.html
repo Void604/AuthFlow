@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Log In - AuthFlow{% endblock %}
+
+{% block content %}
+<h2 class="text-4xl font-extrabold text-center mb-8 text-gray-800">Welcome Back!</h2>
+<form action="{{ url_for('login') }}" method="POST" class="space-y-5">
+    <div class="form-group">
+        <label for="username_or_email" class="block text-gray-700 text-sm font-semibold mb-2">Username or Email</label>
+        <input type="text" id="username_or_email" name="username_or_email" required
+               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-200 ease-in-out shadow-sm placeholder-gray-400"
+               placeholder="johndoe123 or john.doe@example.com">
+    </div>
+    <div class="form-group">
+        <label for="password" class="block text-gray-700 text-sm font-semibold mb-2">Password</label>
+        <input type="password" id="password" name="password" required
+               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-200 ease-in-out shadow-sm placeholder-gray-400"
+               placeholder="••••••••">
+    </div>
+    <button type="submit"
+            class="w-full bg-gradient-to-r from-green-600 to-teal-700 text-white py-3 rounded-lg font-bold text-lg hover:from-green-700 hover:to-teal-800 focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+        Secure Login
+    </button>
+</form>
+<p class="text-center text-gray-600 text-md mt-6">
+    Don't have an account? <a href="{{ url_for('signup') }}" class="text-indigo-600 hover:underline font-bold transition duration-200">Sign Up today!</a>
+</p>
+{% endblock %}
